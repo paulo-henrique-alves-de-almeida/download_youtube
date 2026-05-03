@@ -1,4 +1,4 @@
-# download_youtube
+# ▶ Download Youtube
 Um programa simples para baixar vídeos e músicas do Youtube sem utilizar sites ou programas de terceiros. Feito em Python.
 
 ## 💻 Terminal
@@ -16,3 +16,7 @@ Esse aplicativo precisa de algumas coisas para funcionar.
 São utilizadas as bibliotecas:
 - yt-dlp
 - flet
+
+## 📸 Screenshot
+<img width="419" height="664" alt="Captura de Tela (17)" src="https://github.com/user-attachments/assets/8d56f0c6-5efb-49ac-9369-36a47f007d46" />
+
