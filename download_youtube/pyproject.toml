@@ -1,0 +1,6 @@
+[tool.flet]
+org = "com.download.youtube"
+
+[tool.flet.app]
+name = "Download Youtube"
+icon = "download_youtube_logo.png"

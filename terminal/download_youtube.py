@@ -50,14 +50,19 @@ def download_youtube(url, formato):
 
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
             ydl.download([url])
+            
     except DownloadError:
         print('\033[31mHouve um erro no Download.\033[m')
+
     except ExtractorError:
         print('\033[31mNão foi possível baixar o vídeo pela URL fornecida.\033[m')
+
     except PostProcessingError:
         print('\033[31mNão foi possível converter o vídeo para o formato mp3.\033[m')
+
     except Exception as e:
         print(f'\033[31mOcorreu um erro: {e}\033[m')
+
     else:
         print('\n\033[32mDownload concluído com sucesso!\033[m \n')
 
